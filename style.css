@@ -1,0 +1,50 @@
+body {
+  background-color: #181818;
+}
+
+* {
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  left: 42vw;
+  top: 12vh;
+};
+
+.listadoDeProfes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buscador {
+  border: 3px solid #202020;
+  border-radius: 4%;
+  background-color: #7c2f9a;
+  position: absolute;
+  left: 3vw;
+  top: 20vh;
+}
+
+.aniadidor {
+  border: 3px solid #202020;
+  border-radius: 4%;
+  background-color: #7c2f9a;
+  position: absolute;
+  left: 3vw;
+  top: 35vh;
+}
+
+button {
+  color: white;
+  background-color: black;
+}
+
+div {
+  border-radius: 4%;
+  background-color: #7c2f9a;
+}
+
+input { 
+  background-color: transparent;
+}
